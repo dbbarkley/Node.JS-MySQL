@@ -82,7 +82,7 @@ connection.query("SELECT * FROM products", function(err, results) {
             )
         }
         else {
-            console.log("\nInsufficient quantity!" +
+            console.log("\nInsufficient quantity! Only " + chosenItem.stock_quantity + " left in stock" +
             "\n~~~~~~~~~~~~~~~~~~~~~~~~~" +
             "\n");
             start();
