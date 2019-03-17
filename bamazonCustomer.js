@@ -38,7 +38,7 @@ connection.query("SELECT * FROM products", function(err, results) {
             type: "input",
             message: "Select the ID of the product they would like to buy",
             validate: function(value) {
-                if (value > 0 && value < 11) {
+                if (value > 0 && value <= results.length) {
                   return true;
                 }
                 return console.log(" Must select a valid ID");
