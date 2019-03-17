@@ -27,3 +27,5 @@ This CLI APP is an Amazon-like storefront using MySQL and node.js. The app will 
 ##
 
 ![](Gifs/bamazonManager3.gif)
+
+## Enjoy!
