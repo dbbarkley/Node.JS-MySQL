@@ -17,3 +17,13 @@ This CLI APP is an Amazon-like storefront using MySQL and node.js. The app will 
 - This is the Managers Portal. This takes you through the following prompts to see all products, see low inventory products, update inventory, and add new products to your database. 
 
 ## Example:
+
+![](Gifs/bamazonManager1.gif)
+
+##
+
+![](Gifs/bamazonManager2.gif)
+
+##
+
+![](Gifs/bamazonManager3.gif)
